@@ -1,8 +1,9 @@
 werkzeug==2.1.2
 flask_restx
 portion
+sentence-splitter
+sentencepiece
 torch
 transformers
-ufal.morphodita==1.10.1.1
 
 

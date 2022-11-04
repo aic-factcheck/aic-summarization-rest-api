@@ -1,0 +1,17 @@
+{
+    "model_name": "ctu-aic/mbart25-multilingual-summarization-multilarge-cs",
+    "description": "mBART25 finetuned on SumeCzech CNC and others, headline+text => abstract, use to generate longer summaries",
+    "encoder_max_length":  512,
+    "inference": {
+        "num_beams": 4,
+        "top_k": 40,
+        "top_p": 0.92,
+        "do_sample": true,
+        "temperature": 0.95,
+        "repetition_penalty": 1.23,
+        "no_repeat_ngram_size": null,
+        "early_stopping": true,
+        "max_length": 128,
+        "min_length": 10
+    }
+}
